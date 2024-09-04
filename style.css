@@ -1,0 +1,189 @@
+body{
+	background-color: #21251F;
+	font-family: poppins;
+	color: white;
+}
+.green{
+	color: #C8F560;
+
+}
+.logo{
+	margin-top: 0px;
+	display: flex;
+}
+.logo img{
+height: 150px;
+	width: 150px;
+	margin-top: -20px;
+}
+.logo h1{
+margin-left: -30px;
+margin-top: 30px;
+}
+.logo button{
+	height: 36px;
+	width: 100px;
+	border-radius: 100px;
+	background-color: #21251F;
+	border-color: #C8F560;
+	color: white;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.logo input{
+	border-radius: 100px;
+	height: 30px;
+	width: 300px;
+	background-color: #21251F;
+	border-color: #C8F560;
+	color: white;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+table{
+	width: 200vh;
+	margin-left: 20px;
+	border-radius: 10px;
+	margin-top: 40px;
+}
+table td:last-child, table th:last-child {
+           background-color: #C8F560;
+           color: black;
+           width: 200px;
+        }
+ a{
+	background-color: #21251F;
+	text-decoration: none;
+	color: white;
+	height: 30px;
+	width: 60px;
+		display:inline-block;
+	margin-left: 10px;
+	border-radius: 100px;
+	padding-left: 15px;
+	padding-top: 5px;
+	justify-content: center;
+
+	}
+	.tb{
+	display: flex;
+	}
+	.tb form{
+		width: 50vh;
+		
+		margin-left: 10px;
+		padding-left: 20px;
+		color: white;
+		
+	}
+	.tb select{
+		
+		width: 300px;
+		justify-content: center;
+		height: 35px;
+		border-radius: 100px;
+		background-color: #21251F;
+		border-color: #C8F560;
+		color: white;
+		padding-left: 10px;
+	}
+	.tb label{
+		font-size: 23px;
+		margin-bottom: 10px;
+		margin-left: 15px;
+		color: white;
+
+	}
+	.tb input{
+		width: 289px;
+		height: 35px;
+		background-color: #21251F;
+		border-color:#C8F560 ;
+		border-radius: 100px;
+		color: white;
+		padding-left: 10px;
+	}
+	.tb textarea{
+		width: 289px;
+		height: 35px;
+		color: white;
+		background-color: #21251F;
+		border-color: #C8F560;
+		border-radius: 100px;
+		padding-left: 10px;
+	}
+	.buttons{
+		margin-left: 107px;
+		margin-top: 10px;
+	}
+.buttons a {
+	border: 1px solid;
+	width: 73px;
+		border-color: #C8F560;
+		background-color: #21251F;
+}
+.buttons button{
+		border-color: #C8F560;
+		background-color: #21251F;
+		color: white;
+		height: 35px;
+		width: 73px;
+		border-radius: 100px;
+		margin-left: 10px;
+		font-size: 17px;
+		font-weight: bold;
+		cursor: pointer;
+}
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.carousel {
+    width: 73%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    width: 400%; /* Adjust based on the number of images + 1 for the cloned image */
+    animation: slide 20s linear infinite; /* Adjust the duration as needed */
+}
+
+.slides img {
+    width: 30%;
+    flex-shrink: 0;
+    height: 75vh;
+
+}
+
+.blur {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    pointer-events: none; /* Ensure the blur divs don't interfere with interactions */
+    z-index: 2;
+}
+
+.left {
+    left: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    filter: blur(10px);
+}
+
+.right {
+    right: 0;
+    background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    filter: blur(10px);
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-75%); } /* Adjust based on the number of images - 1/n*100% */
+}
