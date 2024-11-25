@@ -1,0 +1,117 @@
+<COURSE>
+<course_data>
+      <Course_name>
+            <Intro to Computer Science>
+      </Course_name>
+      <Course_number>
+              <ICS1310>
+       </Course_number>
+       <Credit_hours>
+               <4>
+       </Credit_hours>
+       <Department>
+                <CS>
+       </Department>
+</course_data>
+
+<course_data>
+      <Course_name>
+            <Data Structure>
+      </Course_name>
+      <Course_number>
+              <CS3320>
+       </Course_number>
+       <Credit_hours>
+               <4>
+       </Credit_hours>
+       <Department>
+                <CS>
+       </Department>
+</course_data>
+</COURSE>
+
+<SECTION>
+<Section_data>
+      <Section_identifier>
+            <85>
+      </Section_identifier>
+      <Course_number>
+              <MATH2410>
+       </Course_number>
+       <Semester>
+               <Fall>
+       </Semester>
+       <Year>
+                <04>
+       </Year>
+       <Instructor>
+                 <King>
+      </Instructor>
+</course_data>
+
+<Section_data>
+      <Section_identifier>
+            <92>
+      </Section_identifier>
+      <Course_number>
+              <CS1310>
+       </Course_number>
+       <Semester>
+               <Fall>
+       </Semester>
+       <Year>
+                <04>
+       </Year>
+       <Instructor>
+                 <Anderson>
+      </Instructor>
+</course_data>
+</SECTION>
+
+<GRADE_REPORT>
+      <GRADE_DATA>
+           <Student_number>
+                    <17>
+           </Student_number>
+           <Section_identifier>
+                    <112>
+           </Section_identifier>
+           <Grade>
+                    <B>
+           </Grade>
+      </GRADE_DATA>
+
+  
+
+    <GRADE_DATA>
+           <Student_number>
+                    <17>
+           </Student_number>
+           <Section_identifier>
+                    <119>
+           </Section_identifier>
+           <Grade>
+                    <C>
+           </Grade>
+      </GRADE_DATA>
+</GRADE_REPORT>
+
+<PREREQUISITE>
+      <PREREQUISITE_DATA>
+           <Course_number>
+                    <CS3380>
+           </Course_number>
+           <Prerequisite_number>
+                       <CS3320>
+           </Prerequisite_number>
+      </PREREQUISITE_DATA>
+
+      <PREREQUISITE_DATA>
+           <Course_number>
+                    <CS3380>
+           </Course_number>
+           <Prerequisite_number>
+                       <MATH2410>
+           </Prerequisite_number>
+     </PREREQUISITE_DATA>
+</PREREQUISITE>
