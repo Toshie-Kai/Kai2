@@ -47,7 +47,7 @@
        <Instructor>
                  <King>
       </Instructor>
-</course_data>
+</Section_data>
 
 <Section_data>
       <Section_identifier>
@@ -65,7 +65,7 @@
        <Instructor>
                  <Anderson>
       </Instructor>
-</course_data>
+</Section_data>
 </SECTION>
 
 <GRADE_REPORT>
